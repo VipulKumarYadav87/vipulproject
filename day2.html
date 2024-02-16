@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form>
+<label for="name">Enter name</label>  <!--user use id = name because  in whole  form name field never will be repeted label tag is used because it will be link auto metically to input tag-->
+ <input id="name" type="text" placeholder="Enter name" required><!--place holder is type of attribute which will be work with the <input>tagthe work of place holder is to display adefault text as water 
+    mark when a user will not enter original text  -->
+    <br><br>
+<input type="text" required  pattern="^[789]\d{9}$"placeholder="Enter Contact number">
+<br><br>
+    
+    <input type="email" placeholder="Enter email" required> <!--required attribute is used to give a message when a user will not fill a required field-->
+<br><br>
+<input type="password" placeholder="Enter password" maxlength="8" required minlength="5">
+<br><br>
+
+<input type="date">
+<br><br>
+Male
+<input type="radio" name="gender"> <!--name attribute is used because when user check both gender at same time it will be autometically unchecked one in both of them  -->
+
+<br><br>
+Female
+<input type="radio" name="gender">
+<br><br>
+
+Iagree to the condition<input type="checkbox">
+<br><br>
+<textarea cols="30" rows="5" placeholder="Address"></textarea>
+<br><br>
+
+<input type="number"min="10" max="10"placeholder="Enter Contact number">
+<br><br>
+
+<select>
+
+<option >Select City </option>
+<option >Mumbai </option>
+<option > Delhi </option>
+<option >Varanshi </option>
+<option >Pune </option>
+<option >Hydrabad </option>
+</select>
+
+    <br><br>
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button>
+    <button type="button">Useless</button>
+
+
+
+    </form>
+    
+</body>
+</html>

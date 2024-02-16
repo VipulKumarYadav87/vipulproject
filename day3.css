@@ -1,0 +1,76 @@
+/*.para1
+{
+    color: blue;
+    background-color: red;
+}
+h1
+{
+    background-color: yellow;
+}
+span
+{
+    background-color: blueviolet;
+}*/
+
+/*div
+{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
+
+section
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(30, 220, 20);
+}
+nav
+{
+    width: 250;
+    height: 350;
+    background-color: skyblue;
+}
+header
+{
+    height: 500%;
+    width: 400px;
+    background-color: purple;
+
+
+}
+main
+{
+    height: 3050px;
+    width: 200px;
+    background-color: orangered;
+
+}
+
+footer
+{
+
+    width: 250;
+    height: 360;
+    background-color: skyblue;
+}*/
+.one
+{
+    height: 400px;
+    width: 300px;
+    background-color:red;
+    font-size: 30px;
+    padding: 40px;
+    border: 20px solid;
+    margin: 50px;
+
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

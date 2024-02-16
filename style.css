@@ -1,0 +1,20 @@
+style>/* internal css  perfom in html in which we will use a style tag is used to allocate the special space for performing a css in html code page  in  when user usle style tag in html no html tag will be work inside them*/
+/* selector */  /* selector will used to select the html tag where a user can apply the css & the tag will never write like that<p></P> only writ plain as plain text as like p  */
+/*p
+{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+.para1/* dot will used for class in css*/
+{
+    color: blue;
+}
+.para2
+{
+    color: violet;
+}
+#one /* # will used for id in css*/
+{
+color: brown;
+
+}

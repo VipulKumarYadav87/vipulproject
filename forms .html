@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+
+  <style>
+    /*  this in line css will be used for changing a cursor button designe inter css will alwaya declare above the closing  hed tag this css will be apply on boath input  and label tags */
+    body{
+      text-align: center;
+    }
+    label,
+    input {
+      cursor: pointer;
+    }
+    input{
+      text-align: center;
+      width: 30%;
+      padding: 1%;
+      border: 2px solid red;
+    }
+    #gender{
+      
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <h1>how to desigin a form in html</h1>
+
+  <form action="backend.jav">
+    <!--Action is used to where we can store the information of the forms-->
+
+    
+    <!--label tag is used when a text is written a user click on that cursor then cursor will blink automatically  which tye of properties willl bne used  -->
+     <div>
+    
+    <label for="name">Name</label>
+      <input type="text" placeholder="Enter your name" id="name" />
+      <!--here we can use br tag but for dividing the row we can use division tag means <div></div> it will be occupice there full own space-->
+
+    </div>
+    <br>
+    <br>
+    <div>
+    <label for="rollno">Roll no</label>
+     <input type="number" placeholder="Enter your rollno" id="rollno" />
+
+    </div>
+    <!-- using place holder we can write a default text in background when a user enter any text by key board  the default text will be autometically  vanished   -->
+  
+    <br>
+    
+    <div><label for="email">Email</label><input type="email" placeholder="Enter your email" id="email" /></div>
+    
+    <br>
+    <label for="date">Date</label>
+    <div>
+      <input type="date" name=" Mydate" id="date" />
+    </div> <br>
+
+    <label for="bonus">Bonus</label>
+    <div>
+      <input type="number" placeholder="  Enter your Bonus" id="bonus" />
+    </div> <br>
+
+    <div>
+      Are you eligible? <input type="checkbox" name="myEligibility" checked>
+      <!--checked attribute will be used to check the check box default no need to check the check box externally-->
+
+    </div>
+    <br>
+    <div id="gender">
+      Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Others <input
+        type="radio" name="myGender">
+    </div> <br>
+    <div>
+      <!-- text are is alocate a special space in a  inside of box where we can write text or paragraphs the box size will not be a fix it can be increase or decrease accourding to our needs-->
+      Write about yours self: <br> <textarea name="my text" cols="90" rows="10"
+        placeholder="Write about yours self"></textarea>
+    </div>
+    <br>
+    <br>
+
+    <div>
+      <label for="car">Cars</label>
+      <select name="MyCar" id="car"> <!--select tag is used to filter the vales which is store in the bunch 
+    
+     - Option tag is used to provide the multiple type of option butat   one time it will be select only one option at a time   
+     
+    -->
+        <option value="indi">indica</option>
+        <option value="tata">Safari</option>
+        <option value="mahendra">thar</option>
+        <option value="hundyai">creta</option>
+
+      </select>
+    </div>
+    <br>
+    <br>
+    <!-- if u want to select default then you can used selected key word as like checked.-->
+    <div>
+      <label for="car">Cars</label>
+      <select name="MyCar" id="Car">
+        <option value="mahiendra">Scarpio</option>
+        <option value="hundyai" selected>creta</option>
+      </select>
+    </div>
+    <br>
+    <br>
+    <div> Submit: <input type="submit" value="submit Form" /></div> <br>
+    <div>Reset: <input type="reset" value=" Reset form"></div>
+  </form>
+
+
+</body>
+
+</html>

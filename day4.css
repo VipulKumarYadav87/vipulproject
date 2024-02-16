@@ -1,0 +1,27 @@
+/* for apply margin all  over the hole scss for margin we will use (*)it will be select all the margin area.
+ when our website use this by default at that time will use * same thng will be apply for the paddingas well*/ 
+
+/*body 
+{ 
+    margin: 0px;
+}*/
+
+*
+{
+    margin: 0px; /* when any user write as like this at that time website will never will accept default margin and padding.
+     user can apply bry it self  diffrent margine and padding*/
+    padding: 0px;
+}
+.product
+{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+
+}
+.product-child
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}

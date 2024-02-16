@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links and images</title>
+
+</head>
+
+<body>
+    <a href="https://www.youtube.com/" target="_blank"> GO to
+        Youtube</a><br></br><!--It is used for linking external web pages and also link internal  pages the page -->
+    <a href="https://www.google.com/" target="_blank"> GO to Google</a><br></br>
+    <a href="https://www.facebook.com/" target="_blank"> GO to facebook</a><br></br>
+    <a href="https://www.instagram.com/" target="_blank"> GO to instagram</a><br></br>
+    <a href="/first.html" target="_blank"> GO TO First.Html</a> <br></br>
+    <img src="./tabicon.png" alt="img not found">
+     <!-- we can add a img ahd another tag in anchor tag -->
+    <a href=" https://www.instagram.com/" target="_blank">
+        <img src="./tabicon.png" alt="img not found">  
+    </a>
+    <!--alt is an a type of attribute which will be because in some case when img is not load/display at that time those text will apear which will written in alt -->
+      
+
+    <!-- Types of list in html
+   
+        There are two types of list
+        1:- order list 
+        2:- unorder list
+    -->
+    <ol type="1">
+        <!-- type attribute will used how bullet will show on the web pages we can show the bullet as number, romannumber,laters (upper & lower case both will be show) -->
+        <li>This is first item of my order list </li> <!--meaning of li is list items-->
+        <li>This is secon item of my order list </li>
+
+        <!--we can create more than one list with in the list  this method is called nested list  -->
+        <ol type="I">
+
+            <li>Another one </li>
+            <li>Another two </li>
+            <li>Another three </li>
+            <li>Another four </li>
+
+        </ol>
+
+        <li>This is third item of my order list </li>
+        <li>This is fourth item of my order list </li>
+
+    </ol>
+    <ul type="circle">
+        <!-- type attribute will used how bullet will show on the web pages we can show the bullet as disc,circle,square it is used in unorder list -->
+        <li>This is first item of my order list </li> <!--meaning of li is list items-->
+        <li>This is secon item of my order list </li>
+        <li>This is third item of my order list </li>
+        <li>This is fourth item of my order list </li>
+    </ul>
+
+    <!--Tables-->
+    <h3> Tables in html</h3>
+    <table>
+        <thead> <!--thead is working as like html head for creating the head of the table-->
+            <tr> <!--tr tag is used to creating a row of the table-->
+                <th> Emp_id</th> <!-- <th></th> tag is used to diplay table head information  -->
+                <th> Emp_name</th>
+                <th> Emp_Role</th>
+            </tr>
+        </thead>
+        <tbody> <!--tbody is used to dispay table data which will be fill by users. -->
+            <tr>
+                <td>Vipul</td> <!--td tag is used to insert  the data in diffrent table column name -->
+                <td>789</td>
+                <td>full stack developer</td>
+            </tr>
+            <tr>
+                <td>Shivani</td>
+                <td>619</td>
+                <td>Programmer</td>
+            </tr>
+            <tr>
+                <td>Astha</td>
+                <td>564</td>
+                <td>front end developer</td>
+            </tr>
+            <tr>
+                <td>Arunima</td>
+                <td>123</td>
+                <td>back end developer </td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
